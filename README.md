@@ -1,5 +1,5 @@
 # <img src="https://user-images.githubusercontent.com/59380623/82971714-f4417f80-9f98-11ea-917c-3a067a5b6f27.png" width="25"> **Registro**
-Diseño web de formulario de registro.
+Diseño web de formulario de registro, replica del formulario de registro de Uber con bootstrap, jquery, jquery-validate, fontawesome.
 
 ## 1. Instalación
 Iniciar el archivo index.html de la siguiente ruta.
