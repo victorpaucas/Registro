@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+    <link rel="stylesheet" href="librerias/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="librerias/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="librerias/core/css/index.css" />
+    <title>Regístrate</title>
+</head>
+<body>
+    <div class="barrasuperior"></div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="d-flex justify-content-center align-items-center">
+                <img class="imagotipo" src="imagenes/imagotipo/imagotipo.png" />
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="d-flex justify-content-center align-items-center text-center">
+                <h2 class="pl-3 lr-3">5 PEN de descuento en el primer viaje</h2>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="d-flex justify-content-center align-items-center text-center">
+                <h5 class="pl-3 lr-3">Regístrate para acceder a tu regalo</h5>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="d-flex justify-content-center align-items-center">
+                <form id="formulario" name="formulario" class="formulario col-md-6 col-lg-6 col-xl-3">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="nombre">Nombre (obligatorio)</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" maxlength="200" />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="apellido">Apellido (obligatorio)</label>
+                            <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido" maxlength="200" />
+                        </div>
+                    </div>
+                    <div class="form-row mb-3 group">
+                        <div class="form-group col-md-12 pr-0 pb-0 mb-0">
+                            <label for="celular">Celular (obligatorio)</label>
+                        </div>
+                        <div class="input-group col-md-12">
+                            <select id="inputState" class="form-control p-1 select">
+                                <option class="text-center" selected>+51 Perú</option>
+                                <option>+52 Alemania</option>
+                                <option>+53 Italia</option>
+                                <option>+54 Venezuela</option>
+                                <option>+55 Colombia</option>
+                                <option>+56 Chile</option>
+                                <option>+57 Argentina</option>
+                                <option>+58 Bolivia</option>
+                                <option>+59 Ecuador</option>
+                            </select>
+                            <input type="text" class="form-control border-right-0" id="celular" name="celular" placeholder="Celular" maxlength="9" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-phone-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row mb-3 group">
+                        <div class="form-group col-md-12 pr-0 pb-0 mb-0">
+                            <label for="correo">Correo electrónico (obligatorio)</label>
+                        </div>
+                        <div class="input-group col-md-12">
+                            <input type="text" class="form-control border-right-0" id="correo" name="correo" placeholder="Correo electrónico" maxlength="50" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row mb-3 group">
+                        <div class="form-group col-md-12 pr-0 pb-0 mb-0">
+                            <label for="contraseña">Contraseña (obligatorio)</label>
+                        </div>
+                        <div class="input-group col-md-12">
+                            <input type="password" class="form-control fix-rounded-right border-right-0" id="contraseña" name="contraseña" placeholder="Contraseña" maxlength="50" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-lock"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row mb-3 group">
+                        <div class="form-group col-md-12 pr-0 pb-0 mb-0">
+                            <label for="codigopromo">Código promo (opcional)</label>
+                        </div>
+                        <div class="input-group col-md-12">
+                            <input type="text" class="form-control border-right-0" id="codigopromo" name="codigopromo" placeholder="Código promo" maxlength="50" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-tag"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <button type="button" class="btn btn-secondary btn-lg btn-block text-left" id="registrar" name="registrar">REGÍSTRATE</button>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <p class="mensaje">
+                                Al hacer clic en Registrarme, aceptas los Términos de uso de Uber y reconoces que leíste
+                                la Política de privacidad. Además, aceptas recibir llamadas o mensajes por SMS de Uber y
+                                de sus afiliados, incluso de marcadores automáticos, al número ingresado para fines
+                                informativos o de publicidad. No es obligatorio aceptar la recepción de mensajes de
+                                publicidad para usar los servicios de Uber. Comprendes que puedes cancelar la
+                                suscripción al enviar un SMS con la palabra STOP al 89203.
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="librerias/jquery/js/jquery.min.js" /></script>
+    <script src="librerias/jquery/js/jquery.validate.min.js" /></script>
+    <script src="librerias/bootstrap/js/bootstrap.min.js" /></script>
+    <script src="librerias/fontawesome/js/all.min.js" /></script>
+    <script src="librerias/core/js/index.js" /></script>
+</body>
+</html>
